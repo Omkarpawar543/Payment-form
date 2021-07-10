@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <hr>
+        <h2>User Information </h2>
+        <p>Name: <input type="text" name="name" placeholder="Name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id="">
+            </p>
+        </fieldset>
+        <p>Address: <input type="address" name="Address" id="address" placeholder="Enter your address" ></p>
+        <p>Email: <input type="email" name="Email" placeholder="pawar@gmail.com"></p>
+        <p>Pincode: <input type="number" name="Pincode" placeholder="123456"></p>
+
+        <h2>Payment Information </h2>
+        <p>Card Type: 
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+        <p>Card Number: <input type="number" placeholder="xxxx-xxxx-xxxx"></p>
+        <p>Expiration Date: <input type="date"></p>
+        <p>CVV: <input type="number" placeholder="123"></p>
+        <p><input type="submit"> </p>
+
+    </form>
+</div>
+</body>
+</html>
